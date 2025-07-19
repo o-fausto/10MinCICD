@@ -1,17 +1,12 @@
 package main
 
 import (
-	"fmt"
 	"io"
 	"net/http"
 	"net/http/httptest"
 	"strings"
 	"testing"
 )
-
-func rootHandler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintln(w, "Hello, DevOps World!")
-}
 
 func TestRootHandlerDirect(t *testing.T) {
 	req := httptest.NewRequest("GET", "/", nil)
