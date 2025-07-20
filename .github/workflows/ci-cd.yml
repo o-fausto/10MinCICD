@@ -47,5 +47,5 @@ jobs:
           sleep 5
           docker run -d -p 8080:8080 ofausto/go-devops-app:latest
           sleep 30
-          curl -s http://localhost:8080 | | grep "Hello, DevOps World!" || (docker logs test-go-devops-app && exit 1)
+          curl -s http://localhost:8080 | grep "Hello, DevOps World!" || (docker logs test-go-devops-app && exit 1)
           docker stop test-go-devops-app
