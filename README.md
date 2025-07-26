@@ -1,4 +1,4 @@
-# 10-Minute CICD
+# 10-Minute CICD using GitHub
 
 > CICD is often misunderstood. If you are not careful, you end up with a lot of fancy tools to manage, marketing hype, and extra costs.
 
@@ -7,7 +7,7 @@ This brief shows that you can have CICD with just basic tooling and willpower—
 ---
 
 **Example:**  
-I use a Go example here, but you can replace it with any other language.  
+I use a Go here, but you can replace it with any other language.  
 _It’s the mindset that matters._
 
 **Diagram:**  
