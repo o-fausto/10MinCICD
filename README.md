@@ -11,4 +11,5 @@ I use a Go here, but you can replace it with any other language.
 _It’s the mindset that matters._
 
 **Diagram:**  
+
 ![10 Min CICD using Github - Diagram](https://github.com/o-fausto/10MinCICD_Github/blob/main/images/10MinCICD_Github.png)
