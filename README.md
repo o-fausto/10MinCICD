@@ -9,3 +9,6 @@ This brief shows that you can have CICD with just basic tooling and willpower—
 **Example:**  
 I use a Go example here, but you can replace it with any other language.  
 _It’s the mindset that matters._
+
+**Diagram:**  
+![10 Min CICD using Github - Diagram](https://github.com/o-fausto/10MinCICD_Github/raw/main/images/10MinCICD.png)
